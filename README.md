@@ -8,7 +8,7 @@ A simple web application built with React and TypeScript that allows users to ma
 ```bash
 # Clone the repo
 git clone https://github.com/markov98/task-react-todo-list.git
-cd todo-app-react-ts
+cd task-react-todo-list
 
 # Install dependencies
 npm install
