@@ -10,8 +10,8 @@ export default function TodoItem({ todo, toggleTodo }: Props) {
         <tr
             onClick={() => toggleTodo(todo.id)}
         >
-            <th>{todo.text}</th>
-            <th>{todo.completed ? <>Complete</> : <>Active</>}</th>
+            <td>{todo.text}</td>
+            <td>{todo.completed ? <>Complete</> : <>Active</>}</td>
         </tr>
     );
 }

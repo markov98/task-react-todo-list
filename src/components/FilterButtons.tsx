@@ -9,7 +9,7 @@ export default function FilterButtons({ filter, setFilter }: Props) {
   const filters: Filter[] = ['all', 'active', 'completed'];
 
   return (
-    <div className='filter-bottons'>
+    <div className='filter-buttons'>
       {filters.map(f => (
         <button
           key={f}

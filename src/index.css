@@ -1,0 +1,27 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.filter-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1em
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td {
+  border: 1px solid black;
+  padding: 8px;
+  width: 6em;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
